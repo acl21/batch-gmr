@@ -15,7 +15,7 @@ I reimplemented every ``gmr`` function with PyTorch to support parallel computat
 The main motivation behind this implementation is to enable parallel GMR for multiple GMMs. In a robotics research project, we basically had to rollout several hundreds of slightly different but largely similar GMM-based robot policies in parallel in an RL simulation environment. The ``gmr`` library was not designed for such parallel GMR rollouts, and the sequential GMR and multi-threading alternatives were too slow for our needs. This implementation was a simple PyTorch-based solution to that problem.
 
 
-_Note: I am fairly convinced this program will not be useful to most people. But if you are in a similar situation as we once were, this might be useful for you._
+Note: I am fairly convinced this program will not be useful to most people. But if you are in a similar situation as we once were, this might be useful for you.
 
 
 Installation
